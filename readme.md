@@ -41,6 +41,15 @@ var flicker = new Flicker({
     }
 });
 ```
+### Constructor config ###
+
+Name | Type | Default value | Description
+----- | ----- | ------------- | -------------
+render | Function | default render | Custom render function
+interval | Number | 1000 | Interval for flicking
+value | String | "" | Value to set in flickering container
+
+### Methods ###
 
 Start flickering:
 
